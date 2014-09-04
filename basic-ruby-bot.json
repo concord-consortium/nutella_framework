@@ -2,6 +2,6 @@
 	"name": "basic-ruby-bot",
 	"version": "0.1.0",
 	"type": "bot",
-	"repo": "https://github.com/ltg-uic/basic-ruby-bot.git",
+	"repo": "https://github.com/nutella-framework/basic-ruby-bot.git",
 	"description": "The simple possible bot that can be written in Ruby!"
 }

@@ -1,0 +1,7 @@
+{
+	"name": "basic-web-interface",
+	"version": "0.1.0",
+	"type": "interface",
+	"repo": "https://github.com/nutella-framework/basic-web-interface.git",
+	"description": "The simplest nutella interface designed using standard web technologies"
+}

@@ -3,5 +3,5 @@
 	"version": "0.1.0",
 	"type": "bot",
 	"repo": "https://github.com/nutella-framework/basic-ruby-bot.git",
-	"description": "The simple possible bot that can be written in Ruby!"
+	"description": "The simplest possible nutella bot that can be written in Ruby!"
 }

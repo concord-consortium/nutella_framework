@@ -1,0 +1,7 @@
+{
+	"name": "room-places-bot",
+	"version": "0.0.1",
+	"type": "bot",
+	"repo": "https://github.com/nutella-framework/room-places-bot.git",
+	"description": "This bot keeps track of the location of physical resources in a 2D or 3D spcace"
+}

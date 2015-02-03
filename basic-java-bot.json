@@ -2,6 +2,6 @@
 	"name": "basic-java-bot",
 	"version": "0.1.0",
 	"type": "bot",
-	"repo": "https://github.com/nutella-framework/basic-java-bot",
+	"repo": "https://github.com/nutella-framework/basic-java-bot.git",
 	"description": "The simplest possible bot that can be written in Java!"
 }

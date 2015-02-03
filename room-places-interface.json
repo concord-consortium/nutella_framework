@@ -2,6 +2,6 @@
 	"name": "room-places-bot",
 	"version": "0.0.1",
 	"type": "interface",
-	"repo": "https://github.com/gianluca-venturini/room-places-interface",
+	"repo": "https://github.com/gianluca-venturini/room-places-interface.git",
 	"description": "The web interface of Room Places"
 }

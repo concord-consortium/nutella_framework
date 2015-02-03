@@ -1,0 +1,7 @@
+{
+	"name": "room-places-bot",
+	"version": "0.0.1",
+	"type": "bot",
+	"repo": "https://github.com/nutella-framework/room-places-interface.git",
+	"description": "The web interface of Room Places"
+}

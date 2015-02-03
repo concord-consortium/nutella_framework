@@ -2,6 +2,6 @@
 	"name": "room-places-bot",
 	"version": "0.0.1",
 	"type": "interface",
-	"repo": "https://github.com/nutella-framework/room-places-interface.git",
+	"repo": "https://github.com/gianluca-venturini/room-places-interface",
 	"description": "The web interface of Room Places"
 }

@@ -2,6 +2,6 @@
 	"name": "beacon-cloud-bot",
 	"version": "0.0.1",
 	"type": "bot",
-	"repo": "https://github.com/nutella-framework/beacon-cloud-bot.gits",
+	"repo": "https://github.com/nutella-framework/beacon-cloud-bot.git",
 	"description": "This is a RoomPlaces bot, it keep tracks of information about beacons in order to decouple low level technical details with the resource name needed by RoomPlaces"
 }

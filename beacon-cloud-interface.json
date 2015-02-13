@@ -1,0 +1,7 @@
+{
+	"name": "beacon-cloud-interface",
+	"version": "0.0.1",
+	"type": "interface",
+	"repo": "https://github.com/nutella-framework/beacon-cloud-interface.git",
+	"description": "The web interface of Beacon Cloud"
+}

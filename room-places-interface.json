@@ -1,5 +1,5 @@
 {
-	"name": "room-places-bot",
+	"name": "room-places-interface",
 	"version": "0.0.1",
 	"type": "interface",
 	"repo": "https://github.com/gianluca-venturini/room-places-interface.git",

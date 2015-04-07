@@ -1,0 +1,7 @@
+{
+	"name": "monitoring-interface",
+	"version": "0.0.1",
+	"type": "interface",
+	"repo": "https://github.com/nutella-framework/monitoring-interface.git",
+	"description": "The web interface of Monitoring"
+}

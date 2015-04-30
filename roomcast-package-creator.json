@@ -1,0 +1,9 @@
+
+
+{
+	"name": "roomcast-package-creator",
+	"version": "0.1.0",
+	"type": "interface",
+	"repo": "https://github.com/nutella-framework/roomcast-package-creator.git",
+	"description": "The web interface of RoomCast package creator"
+}

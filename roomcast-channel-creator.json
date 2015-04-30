@@ -1,1 +1,7 @@
-https://github.com/nutella-framework/roomcast-channel-creator.git
+{
+	"name": "roomcast-channel-creator",
+	"version": "0.1.0",
+	"type": "interface",
+	"repo": "https://github.com/nutella-framework/roomcast-channel-creator.git",
+	"description": "The web interface of RoomCast channel creator"
+}

@@ -1,0 +1,7 @@
+{
+	"name": "basic-node-bot",
+	"version": "1.0.0",
+	"type": "bot",
+	"repo": "https://github.com/nutella-framework/basic-node-bot.git",
+	"description": "The simplest possible nutella bot that can be written in JavaScript"
+}

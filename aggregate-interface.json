@@ -1,0 +1,7 @@
+{
+	"name": "aggregate-interface",
+	"version": "0.1.0",
+	"type": "interface",
+	"repo": "https://github.com/nutella-framework/aggregate-interface.git",
+	"description": "Nutella interface for tutorial purposes"
+}

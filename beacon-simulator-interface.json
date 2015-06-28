@@ -1,0 +1,7 @@
+{
+	"name": "beacon-simulator-interface",
+	"version": "1.0.1",
+	"type": "interface",
+	"repo": "https://github.com/gianluca-venturini/beacon-simulator-interface.git",
+	"description": "Beacon simulator interface"
+}

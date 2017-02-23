@@ -88,10 +88,19 @@ RUN set -x \
         ${MONGO_PACKAGE}-shell=$MONGO_VERSION \
         ${MONGO_PACKAGE}-mongos=$MONGO_VERSION \
         ${MONGO_PACKAGE}-tools=$MONGO_VERSION \
-    && rm -rf /var/lib/apt/lists/* \
     && rm -rf /var/lib/mongodb \
     && mv /etc/mongod.conf /etc/mongod.conf.orig
 
 RUN mkdir -p /data/db /data/configdb \
     && chown -R mongodb:mongodb /data/db /data/configdb
+RUN npm install mosca pino -g
+RUN apt-get install -y vim
+RUN apt-get install -y unzip
+
+ADD roomquake-master /roomquake-master
+ADD nutella-config.json /root/.nutella/config.json
+ADD startup /root/.nutella/broker/startup
+RUN chmod u+x /root/.nutella/broker/startup
+WORKDIR /path/to/workdir
+
 VOLUME /data/db /data/configdb

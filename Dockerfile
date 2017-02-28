@@ -1,4 +1,5 @@
 FROM ruby:2.2
+LABEL Description="Nutella Container" Vendor="Concord Consortium" Version="0.1"
 
 RUN groupadd --gid 1000 node \
   && useradd --uid 1000 --gid node --shell /bin/bash --create-home node
@@ -97,10 +98,13 @@ RUN npm install mosca pino -g
 RUN apt-get install -y vim
 RUN apt-get install -y unzip
 
-ADD roomquake-master /roomquake-master
 ADD nutella-config.json /root/.nutella/config.json
-ADD startup /root/.nutella/broker/startup
+ADD broker-startup /root/.nutella/broker/startup
 RUN chmod u+x /root/.nutella/broker/startup
-WORKDIR /path/to/workdir
 
-VOLUME /data/db /data/configdb
+ADD startup.sh /startup.sh
+RUN chmod u+x /startup.sh
+
+RUN cd / && nutella new app
+EXPOSE 57880
+CMD ["/usr/bin/nohup","/startup.sh"]
